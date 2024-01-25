@@ -1,3 +1,7 @@
 log.txt
 notion-backup-dev.py
 __pycache__
+*.zip
+/backup/*.zip
+log.txt
+__pycache__
