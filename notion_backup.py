@@ -7,7 +7,6 @@ import requests
 import argparse
 import subprocess
 import re
-from notify import send
 
 # ={'spaces':[]} 则备份所有空间 'space_blocks':[] 则备份整个空间
 # block id格式切记为-隔开!!!
@@ -52,7 +51,7 @@ def writeLog(s):
     with open('log.txt', 'a') as log:
         msg = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()) + ' ' + s
         print(msg)
-        send('notion备份', msg)
+        # send('notion备份', msg)
         log.write(msg + '\n')
 
 
