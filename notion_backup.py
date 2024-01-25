@@ -11,7 +11,7 @@ import re
 # ={'spaces':[]} 则备份所有空间 'space_blocks':[] 则备份整个空间
 # block id格式切记为-隔开!!!
 DEFAULT_BACKUP_CONFIG = {'spaces': [
-        {'space_name': 'CsDancer's Notion'}
+        {'space_name': "CsDancer's Notion"}
     ]
 }
 
