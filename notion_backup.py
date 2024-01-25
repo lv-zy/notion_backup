@@ -10,7 +10,11 @@ import re
 
 # ={'spaces':[]} 则备份所有空间 'space_blocks':[] 则备份整个空间
 # block id格式切记为-隔开!!!
-DEFAULT_BACKUP_CONFIG = {'spaces': []}
+DEFAULT_BACKUP_CONFIG = {'spaces': [
+        {'space_name': 'CsDancer's Notion'}
+    ]
+}
+
 
 # 是否去除所有文件和文件夹的id
 REMOVE_FILES_ID = False
