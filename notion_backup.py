@@ -11,18 +11,7 @@ from notify import send
 
 # ={'spaces':[]} 则备份所有空间 'space_blocks':[] 则备份整个空间
 # block id格式切记为-隔开!!!
-DEFAULT_BACKUP_CONFIG = {
-    'spaces': [{
-        'space_name': 'space_name',
-        'space_blocks': [{
-            'block_id': '12345678-1234-1234-1234-123456789123',
-            'block_name': 'Home1'
-        }, {
-            'block_id': '12345678-1234-1234-1234-123456789123',
-            'block_name': 'Home2'
-        }]
-    }]
-}
+DEFAULT_BACKUP_CONFIG = {'spaces': []}
 
 # 是否去除所有文件和文件夹的id
 REMOVE_FILES_ID = False
@@ -42,10 +31,10 @@ NOTION_EXPORT_TYPE = os.getenv('NOTION_EXPORT_TYPE', 'markdown')  # html pdf
 # 备份文件保存目录
 SAVE_DIR = 'backup/'
 # git相关信息
-REPOSITORY_URL = 'https://github.com/git_user_name/xxx.git'
+REPOSITORY_URL = 'https://github.com/lv-zy/My_notion_bakcup.git'
 REPOSITORY_BRANCH = 'main'
-GIT_USERNAME = 'git_user_name'
-GIT_EMAIL = 'git@git.com'
+GIT_USERNAME = 'lv-zy'
+GIT_EMAIL = 'lvzhaoyang21@gmail.com'
 
 
 def run_command(cmd):
