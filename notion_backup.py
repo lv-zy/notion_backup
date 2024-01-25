@@ -30,8 +30,8 @@ NOTION_EXPORT_TYPE = os.getenv('NOTION_EXPORT_TYPE', 'markdown')  # html pdf
 # 备份文件保存目录
 SAVE_DIR = 'backup/'
 # git相关信息
-REPOSITORY_URL = 'https://github.com/lv-zy/My_notion_bakcup.git'
-REPOSITORY_BRANCH = 'main'
+REPOSITORY_URL = 'https://github.com/lv-zy/notion_backup.git'
+REPOSITORY_BRANCH = 'backup'
 GIT_USERNAME = 'lv-zy'
 GIT_EMAIL = 'lvzhaoyang21@gmail.com'
 
